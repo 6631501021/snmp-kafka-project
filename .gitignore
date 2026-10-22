@@ -1,0 +1,22 @@
+# Python virtual environments
+.venv/
+venv/
+snmp-venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary logs
+*.log
+logs/
+
+# Editor settings
+.vscode/
+.idea/
